@@ -15,9 +15,18 @@ public class Notices extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_notices);
 
+        button = findViewById(R.id.btnH);
+
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(i);
+            }
+        });
         button = findViewById(R.id.btn41);
 
-       button.setOnClickListener(new View.OnClickListener() {
+        button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(getApplicationContext(), MainActivity.class);

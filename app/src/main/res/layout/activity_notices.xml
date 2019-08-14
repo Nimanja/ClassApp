@@ -87,61 +87,61 @@
             tools:layout_editor_absoluteX="parent" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btnH"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_marginStart="20dp"
             android:layout_marginRight="8dp"
             android:background="@drawable/home"
             app:layout_constraintBottom_toBottomOf="@+id/imageView5"
-            app:layout_constraintEnd_toStartOf="@+id/button2"
+            app:layout_constraintEnd_toStartOf="@+id/btnA"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toEndOf="@+id/imageView5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/imageView5" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/btnA"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_marginStart="20dp"
             android:background="@drawable/iconattendace"
-            app:layout_constraintBaseline_toBaselineOf="@+id/button"
-            app:layout_constraintEnd_toStartOf="@+id/button3"
+            app:layout_constraintBaseline_toBaselineOf="@+id/btnH"
+            app:layout_constraintEnd_toStartOf="@+id/btnP"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/button" />
+            app:layout_constraintStart_toEndOf="@+id/btnH" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/btnP"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_marginStart="20dp"
             android:background="@drawable/iconpay"
-            app:layout_constraintBaseline_toBaselineOf="@+id/button2"
-            app:layout_constraintEnd_toStartOf="@+id/button4"
+            app:layout_constraintBaseline_toBaselineOf="@+id/btnA"
+            app:layout_constraintEnd_toStartOf="@+id/btnN"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/button2" />
+            app:layout_constraintStart_toEndOf="@+id/btnA" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/btnN"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_marginStart="20dp"
             android:background="@drawable/noticesicon"
-            app:layout_constraintBaseline_toBaselineOf="@+id/button3"
-            app:layout_constraintEnd_toStartOf="@+id/button5"
+            app:layout_constraintBaseline_toBaselineOf="@+id/btnP"
+            app:layout_constraintEnd_toStartOf="@+id/btnPf"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/button3" />
+            app:layout_constraintStart_toEndOf="@+id/btnP" />
 
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/btnPf"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="8dp"
             android:background="@drawable/profileicon"
-            app:layout_constraintBaseline_toBaselineOf="@+id/button4"
+            app:layout_constraintBaseline_toBaselineOf="@+id/btnN"
             app:layout_constraintEnd_toEndOf="@+id/imageView5"
-            app:layout_constraintStart_toEndOf="@+id/button4" />
+            app:layout_constraintStart_toEndOf="@+id/btnN" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

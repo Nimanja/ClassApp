@@ -103,25 +103,25 @@
             tools:layout_editor_absoluteX="32dp" />
 
         <Button
-            android:id="@+id/btn42"
+            android:id="@+id/btnN"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_marginStart="20dp"
             android:background="@drawable/noticesicon"
-            app:layout_constraintBaseline_toBaselineOf="@+id/button12"
-            app:layout_constraintEnd_toStartOf="@+id/button13"
+            app:layout_constraintBaseline_toBaselineOf="@+id/btnP"
+            app:layout_constraintEnd_toStartOf="@+id/btnPf"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/button12" />
+            app:layout_constraintStart_toEndOf="@+id/btnP" />
 
         <Button
-            android:id="@+id/button8"
+            android:id="@+id/btnH"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_marginStart="20dp"
             android:layout_marginBottom="8dp"
             android:background="@drawable/home"
             app:layout_constraintBottom_toBottomOf="@+id/imageView2"
-            app:layout_constraintEnd_toStartOf="@+id/button10"
+            app:layout_constraintEnd_toStartOf="@+id/btnA"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toEndOf="@+id/imageView2"
             app:layout_constraintStart_toStartOf="@+id/imageView2"
@@ -129,37 +129,37 @@
             app:layout_constraintVertical_bias="1.0" />
 
         <Button
-            android:id="@+id/button13"
+            android:id="@+id/btnPf"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="8dp"
             android:background="@drawable/profileicon"
-            app:layout_constraintBaseline_toBaselineOf="@+id/btn42"
+            app:layout_constraintBaseline_toBaselineOf="@+id/btnN"
             app:layout_constraintEnd_toEndOf="@+id/imageView2"
-            app:layout_constraintStart_toEndOf="@+id/btn42" />
+            app:layout_constraintStart_toEndOf="@+id/btnN" />
 
         <Button
-            android:id="@+id/button12"
+            android:id="@+id/btnP"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_marginStart="20dp"
             android:background="@drawable/iconpay"
-            app:layout_constraintBaseline_toBaselineOf="@+id/button10"
-            app:layout_constraintEnd_toStartOf="@+id/btn42"
+            app:layout_constraintBaseline_toBaselineOf="@+id/btnA"
+            app:layout_constraintEnd_toStartOf="@+id/btnN"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/button10" />
+            app:layout_constraintStart_toEndOf="@+id/btnA" />
 
         <Button
-            android:id="@+id/button10"
+            android:id="@+id/btnA"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_marginStart="20dp"
             android:background="@drawable/iconattendace"
-            app:layout_constraintBaseline_toBaselineOf="@+id/button8"
-            app:layout_constraintEnd_toStartOf="@+id/button12"
+            app:layout_constraintBaseline_toBaselineOf="@+id/btnH"
+            app:layout_constraintEnd_toStartOf="@+id/btnP"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/button8" />
+            app:layout_constraintStart_toEndOf="@+id/btnH" />
 
         <LinearLayout
             android:id="@+id/linearLayout2"
