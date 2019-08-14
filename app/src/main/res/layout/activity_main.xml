@@ -109,69 +109,63 @@
             android:id="@+id/button"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:layout_marginStart="4dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_weight="1"
             android:background="@drawable/home"
-            app:layout_constraintBottom_toBottomOf="@+id/imageView2"
             app:layout_constraintEnd_toStartOf="@+id/button2"
-            app:layout_constraintHorizontal_bias="0.444"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/imageView2"
             app:layout_constraintStart_toStartOf="@+id/imageView2"
-            app:layout_constraintTop_toTopOf="@+id/imageView2"
-            app:layout_constraintVertical_bias="0.6" />
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="24dp"
-            android:layout_marginBottom="8dp"
+            android:layout_margin="10dp"
+            android:layout_marginEnd="10dp"
             android:layout_weight="1"
             android:background="@drawable/iconattendace"
-            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBaseline_toBaselineOf="@+id/button"
             app:layout_constraintEnd_toStartOf="@+id/button3"
-            app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
-            app:layout_constraintVertical_bias="1.0" />
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/button" />
 
         <Button
             android:id="@+id/button3"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginBottom="8dp"
+            android:layout_margin="15dp"
+            android:layout_marginStart="16dp"
             android:layout_weight="1"
             android:background="@drawable/iconpay"
-            app:layout_constraintBottom_toBottomOf="@+id/imageView2"
-            app:layout_constraintEnd_toStartOf="@+id/button4"
-            app:layout_constraintTop_toTopOf="@+id/imageView2"
-            app:layout_constraintVertical_bias="1.0" />
+            app:layout_constraintBaseline_toBaselineOf="@+id/button2"
+            app:layout_constraintStart_toEndOf="@+id/button2" />
 
         <Button
             android:id="@+id/button4"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:layout_marginEnd="24dp"
-            android:layout_marginBottom="8dp"
+            android:layout_marginStart="20dp"
             android:layout_weight="1"
             android:background="@drawable/noticesicon"
-            app:layout_constraintBottom_toBottomOf="@+id/imageView2"
-            app:layout_constraintEnd_toStartOf="@+id/button5"
-            app:layout_constraintTop_toTopOf="@+id/imageView2"
-            app:layout_constraintVertical_bias="1.0" />
+            app:layout_constraintBaseline_toBaselineOf="@+id/button3"
+            app:layout_constraintStart_toEndOf="@+id/button3" />
 
         <Button
             android:id="@+id/button5"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginBottom="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="20dp"
             android:layout_weight="1"
             android:background="@drawable/profileicon"
-            app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+            app:layout_constraintBaseline_toBaselineOf="@+id/button4"
             app:layout_constraintEnd_toEndOf="@+id/imageView2"
-            app:layout_constraintTop_toTopOf="@+id/imageView2"
-            app:layout_constraintVertical_bias="1.0" />
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/button4" />
 
         <LinearLayout
             android:id="@+id/linearLayout2"
